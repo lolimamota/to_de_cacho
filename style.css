@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    background-color: blueviolet;
+}
 
 .section01{
     background-image: url(./imagens/mobile/ret_branco_mob.png);
@@ -20,3 +23,71 @@
 .logotdc{
     margin-left: 25%;
 }
+
+/* .capaCabeludo, .meninasPrincesas, .maju, .cabeludoPraia, .rainha, .maeFilha, .lavando, .platinada, .galeria{
+    height: 100svh;
+} */
+
+.capImg{
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    position: relative;
+    bottom: 40vh;
+    left: 15px;
+}
+.cabeludoImg{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 60svh;
+    width: 100%;   
+}
+
+/* .meninasPrincesas{
+    background-image: url(./imagens/mobile/meninas_princesas_mob.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+
+/* .maju{
+    background-image: url(./imagens/mobile/maju_mob.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+
+/* .cabeludoPraia{
+    background-image: url(./imagens/mobile/cabeludopraia_mob.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+
+/* .rainha{
+    background-image: url(./imagens/mobile/rainha_mob.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+
+/* .maeFilha{
+    background-image: url(./imagens/mobile/mae_filha_mob.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+
+/* .lavando{
+    background-image: url(./imagens/mobile/lavando_mob.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+
+/* .platinada{
+    background-image: url(./imagens/mobile/lavando_mob.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
