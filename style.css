@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: blueviolet;
+    background-color: yellow;
 }
 
 .section01{
@@ -31,10 +31,11 @@ body{
 .capImg{
     display: flex;
     flex-direction: column;
-    width: 150px;
+    width: 200px;
     position: relative;
-    bottom: 40vh;
+    bottom: 47vh;
     left: 15px;
+    padding: 0.5rem;
 }
 .cabeludoImg{
     background-position: center;
@@ -42,6 +43,25 @@ body{
     background-size: 60svh;
     width: 100%;   
 }
+.backText{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: -12rem;
+}
+
+.textoCap{
+    position: relative;
+    bottom: 50vh;
+    width: 265px;
+}
+
+.retangulo{
+    height: 55vh;
+}
+
 
 /* .meninasPrincesas{
     background-image: url(./imagens/mobile/meninas_princesas_mob.png);
